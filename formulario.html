@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    table, td, th{
+      border-collapse: collapse;
+      border: 1px solid black;
+    }
+    .sinborde{
+      border: 0;}
+    </style>
+  </head>
+
+<body>
+  <div>
+    
+
+	<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        	<li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="cronograma.html">Cronograma</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formulario.html">Formulario</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->  
+
+  <!-- Jumbotron -->
+
+  <div class="p-5 text-center bg-light">
+    <h1 class="mb-3">VOLEIBOL MUNDIAL</h1>
+    <h4 class="mb-3">NATIONS LEAGUE</h4>
+    <a class="btn btn-primary" href="" role="button">Superliga 2022</a>
+  </div>
+  <!-- Jumbotron -->
+</header>
+</div>
+
+<div>
+  
+  
+  <div class="contengrande">
+
+    <form>
+    <table style="width: 90%;" class="tablatitu">
+        <tr>
+          <th>CLUB DE VOLEIBOL IPIALES</th>     
+        </tr>
+      </table>
+      <br>
+    <table style="width: 90%;">
+
+      <tr>  
+        <th rowspan="3"><img src="https://www.shutterstock.com/image-vector/volleyball-tournament-logo-concept-vector-600w-2191926515.jpg" height="200" width="250"></th>
+
+        <th rowspan="2">FORMULARIO DE INSCRIPCIÓN PARA EL CAMPEONATO</th>
+      </tr>
+    </table>
+    <br>
+
+      <table style="width: 90%;" class="tabla1">
+        <tr>
+          <th>DATOS DEL DEPORTISTA</th>     
+        </tr>
+      </table>
+      <br>
+
+      <label for="nombre">Nombres: &nbsp; &nbsp;</label>
+      <input type="text" id="Nombres" placeholder="Escriba sus nombres"> &nbsp; &nbsp;
+
+      <label for="apellido">Apellidos: &nbsp;</label>
+      <input type="text" id="Nombres" placeholder="Escriba sus apellidos"> &nbsp; &nbsp;
+
+      <label for="edad">Edad: &nbsp; &nbsp; </label>
+      <input type="Number" id="Edad" placeholder="Digite su edad"> &nbsp; &nbsp;
+
+      <label for="correo">Correro: &nbsp; &nbsp;</label>
+      <input type="email" id="correo" placeholder="Escriba su email">&nbsp; &nbsp;
+      <br> <br>
+
+      <label for="Contacto: ">Contacto: &nbsp; &nbsp;</label><input type="Number" id="telefono" placeholder="Numero de contacto"> &nbsp;  &nbsp;
+
+      <label for="Estatura">Estatura: &nbsp; &nbsp;</label>
+      <input type="text" id="Estatura" placeholder="Estatura en metros"> &nbsp; &nbsp;
+
+
+      <label for="tipo"> Documento: &nbsp; </label>
+      <select id="tipo">
+      <option disabled selected> Seleccione su tipo de documento: </option>
+      <option>Tarjeta de identidad_T.I</option>
+      <option>Cedula de ciudadania_C.C</option>
+      <option>Cedula extranjera_C.E</option>
+      </select> &nbsp;
+
+      <label for="ndocumento">&nbsp; No_Documento: &nbsp; </label><input type="text" id ="ndocumento"  
+      placeholder="Escriba numero de documento" > &nbsp;  &nbsp; &nbsp;  &nbsp;
+      <br> <br>
+
+      <label for="">Genero:</label> &nbsp;  &nbsp;
+
+      <label for="F">Femenino: </label><input type="radio" id="F" name="genero">
+      <label for="M">Masculino:</label> <input type="radio" id ="M" name="genero">
+      &nbsp;  &nbsp;
+
+      <label for="tipo"> EPS: &nbsp; &nbsp; &nbsp; </label>
+      <select id="tipo">
+      <option disabled selected > Seleccione su EPS &nbsp; &nbsp; &nbsp;  &nbsp; </option> 
+      <option>Emssanar E.s.s</option>
+      <option>Comfamiliar.</option>
+      <option>Red Salud E.p.s</option>
+      </select> &nbsp; &nbsp;
+
+      <label for="tipo">Tipo de sangre: &nbsp; </label> 
+      <select id="tipo">
+      <option disabled selected>Seleccione su tipo &nbsp;  &nbsp; &nbsp;  &nbsp;</option>
+      <option>Tipo A positivo (+)</option>
+      <option>Tipo A negativo (-)</option>
+      <option>Tipo B positivo (+)</option>
+      <option>Tipo B negativo (-)</option>
+      <option>Tipo AB positivo (+</option>
+      <option>Tipo AB negativo (-)</option>
+      <option>Tipo O positivo (+)</option>
+      <option>Tipo A negativo (-)</option>
+      </select> &nbsp; &nbsp;
+
+      <label for="Contact_fami: ">Contacto de familiar: &nbsp; &nbsp;</label><input type="Number" id="telefono_fami" placeholder="Digite contacto familiar"> &nbsp;  &nbsp;
+    <br> <br>
+
+    <label for="Fecha_Nac">Fecha Nacimiento</label>
+    <input type="date" id="Fecha_nac"> &nbsp;  &nbsp; &nbsp;
+
+    <label for="Fecha_ins">Fecha de inscripción</label>
+    <input type="date" id="Fecha_ins">
+    <br> <br>
+
+      <table style="width: 90%; " class="tabla2">
+        <tr>
+          <th>DATOS DEL EQUIPO</th>     
+        </tr>
+      </table>
+      <br>
+
+      <div class="contp">
+        <div class="conten1">
+          
+          <label for="Entidad">Seleccione el tipo de entidad: &nbsp;</label>
+          <br>
+          <input type="radio" id="club" name="tipo" value="Club">
+          <label for="club">Club</label> <br>
+          <input type="radio" id="aficionado" name="tipo" value="Aficionado">
+          <label for="aficionado">Aficionado</label> <br>
+          <input type="radio" id="profesional" name="tipo" value="Profesional">
+          <label for="profesional">Profesional</label> &nbsp; &nbsp;
+        </div>
+
+        <div class="conten2">
+          
+        
+          <label for="nombre_club">Nombre de la entidad &nbsp; &nbsp;</label>
+          <input type="text" id="Nombre_club" placeholder="Escriba el nombre"> &nbsp; &nbsp;
+
+          <label for="tipo"> Nivel de competencia &nbsp; </label>
+            <select id="tipo">
+            <option disabled selected> Equipo nivel </option>
+              <option>Municipal</option>
+              <option>Departamental</option>
+            <option>Estudiantil</option>
+            </select> &nbsp; &nbsp;
+
+            <label for="tipo"> Cede del equipo &nbsp; </label>
+            <select id="tipo">
+            <option disabled selected> Seleccione el departamento </option>
+            <option value = ""> </option>
+                    <option value = "Amazonas">Amazonas</option>
+                    <option value = "Antioquia">Antioquia</option>
+                    <option value = "Arauca">Arauca</option>
+                    <option value = "Atlántico">Atlántico</option>
+                    <option value = "Bolívar">Bolívar</option>
+                    <option value = "Boyacá">Boyacá</option>
+                <option value = "Caldas">Caldas</option>
+                    <option value = "Caquetá">Caquetá</option>
+                    <option value = "Casanare">Casanare</option>
+                    <option value = "Cauca">Cauca</option>
+                    <option value = "Cesar">Cesar</option>
+                    <option value = "Chocó">Chocó</option>                
+                    <option value = "Córdoba">Córdoba</option>
+                    <option value = "Cundinamarca">Cundinamarca</option>
+                    <option value = "Guainía">Guainía</option>
+                <option value = "Guaviare">Guaviare</option>
+                    <option value = "Huila">Huila</option>
+                    <option value = "La Guajira">La Guajira</option>
+                    <option value = "Magdalena">Magdalena</option>
+                <option value = "Meta">Meta</option>
+                    <option value = "Nariño">Nariño</option>
+                    <option value = "Norte de Santander">Norte de Santander</option>
+                    <option value = "Putumayo">Putumayo</option>                
+                    <option value = "Quindío">Quindío</option>  
+                <option value = "Risaralda">Risaralda</option>
+                    <option value = "San Andrés y Providencia">San Andrés y Providencia</option>
+                    <option value = "Santander">Santander</option>
+                    <option value = "Sucre">Sucre</option>
+                    <option value = "Tolima">Tolima</option>
+                    <option value = "Valle del Cauca">Valle del Cauca</option>
+                    <option value = "Vaupés">Vaupés</option>
+                    <option value = "Vichada">Vichada</option>
+            </select> &nbsp; &nbsp;
+            <br> <br>
+
+            <label for="nombre">Ciudad o Municipio&nbsp; &nbsp; &nbsp; &nbsp;</label>
+          <input type="text" id="Nombres" placeholder="Ciudad_municipio_cede"> &nbsp; &nbsp;
+
+          <label for="tipo"> Categoria &nbsp; </label>
+            <select id="tipo">
+            <option disabled selected> Equipo nivel </option>
+              <option>Infantil</option>
+              <option>Juvenil</option>
+            <option>Libre</option>
+            <option>ELlite</option>
+            </select> &nbsp; &nbsp;
+
+            <label for="">Representación de equipo </label> &nbsp;  &nbsp;
+            <label for="F"> Femenino </label><input type="radio" id="F" name="genero">
+            <label for="M">Masculino </label> <input type="radio" id ="M" name="genero">
+            &nbsp;  &nbsp;
+            <br> <br>
+          </div>
+        </div>
+
+
+      <table style="width: 90%;" class="tabla3">
+      <tr>
+        <th>DATOS EXTRA PARA CORROBORAR</th>    
+      </tr>
+    </table>
+      <br>
+    <div>
+      <label for="inca" id="dato">¿PADECE ALGÚN TIPO DE INCAPACIDAD O ENFERMEDAD?:</label>
+
+      <label for="otro" id="deporte">¿PRACTICA ALGÚN OTRO DEPORTE? ¿CUÁL(ES)?</label>
+    </div>
+    <div class="areas">
+      <textarea cols="50" rows="3" id=cuadro> 
+      </textarea>
+
+      <textarea cols="50" rows="3" id=cuadro> 
+      </textarea>
+    </div>  
+
+    <button type="submit" id="botones1">presione aqui </button>
+    <button type="reset">Limpiar</button>
+      
+    <button type="submit" id="botones2">presione aqui </button>
+    <button type="reset">Limpiar</button>
+    <br> <br>
+
+    <label for="">HA PARTICIPADO EN OTROS CLUBES O SIMILAR? :</label> &nbsp;  &nbsp;
+
+      <label for="Si">Si:  </label><input type="radio" id="Si" name="otros">
+      <label for="No">No:</label> <input type="radio" id ="No" name="otros">
+      &nbsp;  &nbsp;
+
+      <label for="Cual">Cuales: &nbsp; &nbsp;</label>
+      <input type="text" id="cual" placeholder="Escriba el nombre"> &nbsp; &nbsp;
+      <br> <br>
+
+    <label for="entrenador">Nombre del entrenador: &nbsp; &nbsp;</label>
+    <input type="text" id="entrenador" placeholder="Escriba nombre del entrenador"> &nbsp; &nbsp;
+
+    <label for="Direccion" class="direccion">Dirección del equipo:</label>
+      <input type="text" id="Direccion" placeholder="Direccion general"> &nbsp; &nbsp;
+
+    <label for="Numequi">Contacto del equipo: &nbsp; &nbsp;</label>
+    <input type="Number" id="Numequi" placeholder="Numero de contacto"> &nbsp; &nbsp;
+    <br> <br>
+
+    <table style="width: 90%;" class="tabla4">
+      <tr>
+        <th>AUTORIZACIONES</th>   
+      </tr>
+    </table>
+      <br>
+
+    <label for="archivo">Firma del entrenador o representante (Adjuntar firma): &nbsp; &nbsp;</label>
+    <br>
+    <input type="file" id="Archivo">
+
+
+    <label for="reglas" class="reglas">Acepta las reglas del campeonato?:</label> &nbsp;  &nbsp;
+
+
+      <label for="S">Si: </label><input type="radio" id="S" name="s">
+      <label for="N">No:</label> <input type="radio" id ="N" name="s">
+      &nbsp;  &nbsp;
+      <br> <br>
+
+      <table style="width: 90%;" class="tabla5">
+      <tr>
+        <th>‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎</th>    
+    </table>
+      <br>
+
+      <button class="boton-registrar">REGISTRAR</button>
+      <br> <br>
+
+      <table style="width: 90%;" class="tabla6">
+      <tr>
+        <th>‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‎</th>    
+    </table>
+    <br> <br>
+
+    </form>
+
+  </div>
+</div>
+
+<!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+</body>
+</html>
